@@ -1,4 +1,5 @@
 * {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -131,4 +132,21 @@ svg {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+/* list movie */
+.list-movie {
+  margin-top: 50px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.list-movie img {
+  width: 230px;
+  border-radius: 8px;
+  height: 340px;
 }
