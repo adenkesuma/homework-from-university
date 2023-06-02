@@ -51,7 +51,16 @@ const listMovies = [
   }
 ]
 
-const title = ['horror', 'action', 'laga']
+const title = ['HORROR', 'ACTION', 'LAGA']
+
+const changeTitle = () => {
+  const titleHeader = document.getElementById('title')
+  const randomIndex = Math.floor(Math.random() * title.length)
+  titleHeader.textContent = title[randomIndex]
+}
+setInterval(() => {
+  changeTitle()
+}, 4000)
 
 const showAlert = () => {
   alert("website dalam perbaikan")
